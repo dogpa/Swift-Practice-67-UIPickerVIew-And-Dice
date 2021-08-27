@@ -13,6 +13,9 @@
 		2D4B0C0026D8B45200CFED5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B0BFE26D8B45200CFED5A /* Main.storyboard */; };
 		2D4B0C0226D8B45300CFED5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B0C0126D8B45300CFED5A /* Assets.xcassets */; };
 		2D4B0C0526D8B45300CFED5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B0C0326D8B45300CFED5A /* LaunchScreen.storyboard */; };
+		2D4B0C0D26D8BBE300CFED5A /* TenDollarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B0C0C26D8BBE300CFED5A /* TenDollarViewController.swift */; };
+		2D4B0C0F26D8C6FE00CFED5A /* DiceGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B0C0E26D8C6FE00CFED5A /* DiceGameViewController.swift */; };
+		2D4B0C1126D8C73500CFED5A /* DiceGameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B0C1026D8C73500CFED5A /* DiceGameType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2D4B0C0126D8B45300CFED5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4B0C0426D8B45300CFED5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D4B0C0626D8B45300CFED5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4B0C0C26D8BBE300CFED5A /* TenDollarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenDollarViewController.swift; sourceTree = "<group>"; };
+		2D4B0C0E26D8C6FE00CFED5A /* DiceGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGameViewController.swift; sourceTree = "<group>"; };
+		2D4B0C1026D8C73500CFED5A /* DiceGameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGameType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				2D4B0BFA26D8B45200CFED5A /* SceneDelegate.swift */,
 				2D4B0BFC26D8B45200CFED5A /* ViewController.swift */,
 				2D4B0BFE26D8B45200CFED5A /* Main.storyboard */,
+				2D4B0C0E26D8C6FE00CFED5A /* DiceGameViewController.swift */,
+				2D4B0C0C26D8BBE300CFED5A /* TenDollarViewController.swift */,
+				2D4B0C1026D8C73500CFED5A /* DiceGameType.swift */,
 				2D4B0C0126D8B45300CFED5A /* Assets.xcassets */,
 				2D4B0C0326D8B45300CFED5A /* LaunchScreen.storyboard */,
 				2D4B0C0626D8B45300CFED5A /* Info.plist */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4B0C0F26D8C6FE00CFED5A /* DiceGameViewController.swift in Sources */,
+				2D4B0C0D26D8BBE300CFED5A /* TenDollarViewController.swift in Sources */,
 				2D4B0BFD26D8B45200CFED5A /* ViewController.swift in Sources */,
 				2D4B0BF926D8B45200CFED5A /* AppDelegate.swift in Sources */,
+				2D4B0C1126D8C73500CFED5A /* DiceGameType.swift in Sources */,
 				2D4B0BFB26D8B45200CFED5A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
